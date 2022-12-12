@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+main #button {
+  width: 8rem;
+  height: 2rem;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+}
+main #button:hover {
+  background-color: coral;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: black;
+  }
+  main {
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=Main.css.map */
